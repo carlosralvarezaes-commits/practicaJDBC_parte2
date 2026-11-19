@@ -3,6 +3,15 @@ package procedimientos;
 public class Ejercicio4 {
 
     public static void avisarVencimientos(int idSocio, int diasSolicitados) {
+
+        String sql ="{call avisar_vencimientos(?,?,?)}";
+
+
+
+
+
+
+
     }
 
     public static void main(String[] args) {
